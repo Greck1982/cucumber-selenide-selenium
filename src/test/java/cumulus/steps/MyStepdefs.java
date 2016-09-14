@@ -16,7 +16,7 @@ public class MyStepdefs
     LoginPage loginPage = page(LoginPage.class);
 
     @Given("^open 10.21.53.12/login$")
-    public void openRiskmarketRu()
+    public void openCumulus()
     {
         open("http://10.21.53.12/login");
     }
